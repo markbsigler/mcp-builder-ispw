@@ -1,0 +1,17 @@
+{
+  "mcpServers": {
+    "ispw": {
+      "command": "/Users/msigler/Code/mcp-builder-ispw/venv/bin/python",
+      "args": [
+        "/Users/msigler/Code/mcp-builder-ispw/ispw_mcp_server.py"
+      ],
+      "env": {
+        "CES_HOST": "localhost",
+        "CES_PORT": "2020",
+        "ISPW_API_TOKEN": "your_personal_access_token_here",
+        "ISPW_DEFAULT_SRID": "ISPW",
+        "ISPW_TIMEOUT": "30"
+      }
+    }
+  }
+}
